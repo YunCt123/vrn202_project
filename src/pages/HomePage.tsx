@@ -58,7 +58,7 @@ export function HomePage() {
           animate={{ opacity: 1 }}
           transition={{ delay: 1, duration: 0.8 }}
         >
-          Từ nguồn gốc đến hiện đại — Hành trình 95 năm xây dựng và phát triển đất nước
+          Từ bối cảnh trước năm 1930 đến thời kỳ hội nhập hiện đại - hành trình từ 1930 đến nay
         </motion.p>
 
         <motion.div

@@ -27,29 +27,29 @@ export function ExploreSection() {
   const cards = [
     {
       icon: '📖',
-      title: 'Thành lập Đảng',
-      description: 'Hội nghị hợp nhất thành lập Đảng Cộng sản Việt Nam năm 1930 tại Hương Cảng',
+      title: 'Giai đoạn hình thành',
+      description: 'Bối cảnh 1858-1930, hành trình chuẩn bị tư tưởng và tổ chức để thành lập Đảng năm 1930',
       border: 'red',
       link: '/timeline'
     },
     {
       icon: '⚔️',
-      title: 'Kháng chiến',
-      description: 'Hai cuộc kháng chiến vĩ đại chống thực dân Pháp và đế quốc Mỹ',
+      title: 'Cách mạng và kháng chiến',
+      description: 'Toàn cảnh 1930-1975 từ Cách mạng Tháng Tám đến hai cuộc kháng chiến giành độc lập, thống nhất',
       border: 'gold',
       link: '/timeline'
     },
     {
       icon: '🌐',
-      title: 'Đổi mới',
-      description: 'Công cuộc đổi mới từ 1986 đưa đất nước hội nhập quốc tế',
+      title: 'Đổi mới và hội nhập',
+      description: 'Các bước chuyển từ 1986 đến nay: đổi mới kinh tế, hội nhập khu vực và toàn cầu',
       border: 'bronze',
       link: '/about'
     },
     {
       icon: '📅',
       title: 'Dòng thời gian',
-      description: 'Các mốc lịch sử quan trọng qua từng giai đoạn',
+      description: 'Hệ thống mốc năm theo từng giai đoạn, có bối cảnh và ý nghĩa lịch sử cụ thể',
       border: 'red-light',
       link: '/timeline'
     }

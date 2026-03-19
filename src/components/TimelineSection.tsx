@@ -26,43 +26,75 @@ export function TimelineSection() {
   const events = [
     {
       date: '1858 - 1930',
-      title: 'Bối cảnh trước khi thành lập Đảng',
-      description: 'Thực dân Pháp xâm lược, các phong trào yêu nước thất bại. Nguyễn Ái Quốc ra đi tìm đường cứu nước năm 1911, tiếp thu chủ nghĩa Mác-Lênin.'
+      title: 'Bối cảnh lịch sử và chuẩn bị thành lập Đảng',
+      description:
+        'Việt Nam trở thành thuộc địa nửa phong kiến; các phong trào Cần Vương, Đông Du, Duy Tân lần lượt thất bại. Nguyễn Ái Quốc tìm ra con đường giải phóng dân tộc theo chủ nghĩa Mác-Lênin và chuẩn bị về tư tưởng, tổ chức cho sự ra đời của Đảng.'
     },
     {
-      date: '3/2/1930',
-      title: 'Thành lập Đảng Cộng sản Việt Nam',
-      description: 'Hội nghị hợp nhất tại Hương Cảng do Nguyễn Ái Quốc chủ trì, thống nhất 3 tổ chức cộng sản thành Đảng Cộng sản Việt Nam.'
+      date: '1930',
+      title: 'Thành lập Đảng và Cương lĩnh đầu tiên',
+      description:
+        'Hội nghị hợp nhất tại Hương Cảng do Nguyễn Ái Quốc chủ trì đã thống nhất các tổ chức cộng sản, thông qua Cương lĩnh chính trị đầu tiên, xác lập mục tiêu độc lập dân tộc gắn với quyền lợi của nhân dân lao động.'
     },
     {
-      date: '1930 - 1931',
-      title: 'Phong trào Xô Viết Nghệ Tĩnh',
-      description: 'Cao trào cách mạng đầu tiên, nông dân lập chính quyền Xô Viết tại nhiều địa phương ở Nghệ An, Hà Tĩnh.'
+      date: '1930 - 1935',
+      title: 'Xô Viết Nghệ Tĩnh và phục hồi tổ chức Đảng',
+      description:
+        'Phong trào cách mạng 1930-1931 bùng nổ với đỉnh cao là Xô Viết Nghệ Tĩnh. Sau khủng bố trắng, Đảng từng bước khôi phục hệ thống tổ chức và tổ chức thành công Đại hội I năm 1935.'
     },
     {
-      date: '2/9/1945',
-      title: 'Khai sinh nước Việt Nam DCCH',
-      description: 'Chủ tịch Hồ Chí Minh đọc Tuyên ngôn Độc lập tại Quảng trường Ba Đình, khai sinh nước Việt Nam Dân chủ Cộng hòa.'
+      date: '1936 - 1939',
+      title: 'Phong trào dân chủ Đông Dương',
+      description:
+        'Trong bối cảnh thế giới chống phát xít, Đảng điều chỉnh chiến lược, đẩy mạnh đấu tranh công khai, nửa công khai để đòi dân sinh, dân chủ, chống chiến tranh và mở rộng mặt trận đoàn kết quần chúng.'
     },
     {
-      date: '7/5/1954',
-      title: 'Chiến thắng Điện Biên Phủ',
-      description: 'Chiến thắng lịch sử "lừng lẫy năm châu, chấn động địa cầu", kết thúc 9 năm kháng chiến chống thực dân Pháp.'
+      date: '1939 - 1945',
+      title: 'Chuyển hướng chiến lược và Cách mạng Tháng Tám',
+      description:
+        'Đảng đặt nhiệm vụ giải phóng dân tộc lên hàng đầu, xây dựng lực lượng chính trị - vũ trang, thành lập Việt Minh, chớp thời cơ Tổng khởi nghĩa tháng 8/1945, giành chính quyền trên cả nước.'
     },
     {
-      date: '30/4/1975',
-      title: 'Giải phóng miền Nam, thống nhất đất nước',
-      description: 'Chiến dịch Hồ Chí Minh toàn thắng, miền Nam hoàn toàn giải phóng, kết thúc 21 năm kháng chiến chống Mỹ.'
+      date: '1945 - 1954',
+      title: 'Kháng chiến chống thực dân Pháp',
+      description:
+        'Nhà nước non trẻ vượt qua muôn vàn khó khăn, tiến hành kháng chiến toàn dân - toàn diện. Đỉnh cao là chiến thắng Điện Biên Phủ (1954), buộc Pháp ký Hiệp định Geneve.'
     },
     {
-      date: '12/1986',
-      title: 'Đại hội VI - Đổi mới',
-      description: 'Đại hội Đổi mới, chuyển sang kinh tế thị trường định hướng XHCN, mở đầu kỷ nguyên phát triển mới.'
+      date: '1954 - 1975',
+      title: 'Kháng chiến chống Mỹ, thống nhất đất nước',
+      description:
+        'Miền Bắc xây dựng CNXH, miền Nam đấu tranh giải phóng. Sau các bước ngoặt chiến lược, Chiến dịch Hồ Chí Minh toàn thắng ngày 30/4/1975, đất nước thống nhất.'
+    },
+    {
+      date: '1975 - 1986',
+      title: 'Thống nhất đất nước và vượt qua khủng hoảng',
+      description:
+        'Cả nước đi lên CNXH trong điều kiện hậu chiến và bao vây cấm vận, đối mặt khó khăn kinh tế - xã hội và chiến tranh biên giới. Đây là bối cảnh trực tiếp dẫn đến yêu cầu đổi mới toàn diện.'
+    },
+    {
+      date: '1986 - 1995',
+      title: 'Đại hội VI và khởi đầu Đổi mới',
+      description:
+        'Đại hội VI mở ra đường lối đổi mới toàn diện, chuyển sang cơ chế thị trường định hướng XHCN, từng bước ổn định kinh tế vĩ mô, mở rộng đối ngoại và tạo nền tảng hội nhập.'
+    },
+    {
+      date: '1995 - 2006',
+      title: 'Hội nhập khu vực và mở rộng quan hệ quốc tế',
+      description:
+        'Việt Nam bình thường hóa quan hệ với Hoa Kỳ (1995), gia nhập ASEAN (1995), đẩy mạnh công nghiệp hóa, hiện đại hóa và hoàn thiện thể chế phát triển trong thời kỳ mới.'
+    },
+    {
+      date: '2006 - 2021',
+      title: 'Hội nhập toàn cầu, phát triển và chỉnh đốn Đảng',
+      description:
+        'Gia nhập WTO (2006), kinh tế tăng trưởng gắn với tái cơ cấu. Các nhiệm kỳ XI, XII thúc đẩy xây dựng, chỉnh đốn Đảng và phòng chống tham nhũng, tạo chuyển biến mạnh về quản trị quốc gia.'
     },
     {
       date: '2021 - Nay',
-      title: 'Đại hội XIII và tầm nhìn 2045',
-      description: 'Định hướng đưa Việt Nam trở thành nước phát triển, thu nhập cao vào năm 2045 - kỷ niệm 100 năm thành lập nước.'
+      title: 'Đại hội XIII và tầm nhìn đến 2045',
+      description:
+        'Đại hội XIII xác định mục tiêu đến năm 2045 đưa Việt Nam thành nước phát triển, thu nhập cao. Giai đoạn 2024 đến nay tiếp tục kiện toàn lãnh đạo, thúc đẩy chuyển đổi số và phát triển bền vững trong bối cảnh cạnh tranh toàn cầu.'
     }
   ]
 

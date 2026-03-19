@@ -3,6 +3,23 @@
 
 ---
 
+## TỔNG QUAN NHANH CÁC GIAI ĐOẠN LỊCH SỬ
+
+| Giai đoạn | Mốc năm | Bối cảnh chính |
+|---|---|---|
+| Trước khi thành lập Đảng | 1858-1930 | Mất nước, phong trào yêu nước tìm đường cứu nước; chuẩn bị về tư tưởng và tổ chức cho sự ra đời của Đảng |
+| Thành lập Đảng và đấu tranh khôi phục lực lượng | 1930-1935 | Đảng ra đời, Xô Viết Nghệ Tĩnh, vượt qua khủng bố trắng, tổ chức Đại hội I |
+| Phong trào dân chủ Đông Dương | 1936-1939 | Đảng điều chỉnh chiến lược theo tình hình quốc tế, đấu tranh dân sinh - dân chủ |
+| Chuyển hướng chiến lược, giành chính quyền | 1939-1945 | Ưu tiên giải phóng dân tộc, xây dựng Việt Minh và lực lượng vũ trang, thắng lợi Cách mạng Tháng Tám |
+| Kháng chiến chống Pháp | 1945-1954 | Bảo vệ chính quyền cách mạng, kháng chiến toàn dân; đỉnh cao Điện Biên Phủ |
+| Kháng chiến chống Mỹ, thống nhất đất nước | 1954-1975 | Miền Bắc xây dựng CNXH, miền Nam đấu tranh giải phóng; đại thắng mùa xuân 1975 |
+| Thống nhất và bước đầu xây dựng CNXH | 1975-1986 | Khắc phục hậu quả chiến tranh, đối mặt khủng hoảng kinh tế - xã hội, chuẩn bị đổi mới |
+| Đổi mới và hội nhập quốc tế | 1986-2006 | Chuyển đổi cơ chế phát triển, mở cửa đối ngoại, gia nhập ASEAN |
+| Hội nhập toàn cầu và phát triển bền vững | 2006-2024 | Gia nhập WTO, đẩy mạnh công nghiệp hóa, hiện đại hóa, xây dựng và chỉnh đốn Đảng |
+| Giai đoạn hiện nay | Từ 2024 | Tiếp tục thực hiện Nghị quyết Đại hội XIII, mục tiêu đến năm 2045 trở thành nước phát triển, thu nhập cao |
+
+---
+
 ## GIAI ĐOẠN TRƯỚC NĂM 1930: BỐI CẢNH, PHONG TRÀO YÊU NƯỚC VÀ SỰ CHUẨN BỊ THÀNH LẬP ĐẢNG
 
 - **Năm 1858:** Thực dân Pháp nổ súng tấn công xâm lược, biến Việt Nam từ một quốc gia phong kiến thành thuộc địa nửa phong kiến.

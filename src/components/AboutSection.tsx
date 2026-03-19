@@ -48,6 +48,12 @@ export function AboutSection() {
             Trải qua gần một thế kỷ, Đảng đã lãnh đạo nhân dân Việt Nam giành độc lập dân tộc,
             thống nhất đất nước và đang tiếp tục công cuộc đổi mới, xây dựng chủ nghĩa xã hội.
           </motion.p>
+          <motion.p variants={fadeInUp}>
+            Tiến trình lịch sử được thể hiện qua các chặng lớn: chuẩn bị thành lập Đảng (1858-1930),
+            đấu tranh giành chính quyền (1930-1945), hai cuộc kháng chiến bảo vệ độc lập và thống
+            nhất (1945-1975), giai đoạn thống nhất - khắc phục hậu quả chiến tranh (1975-1986),
+            và thời kỳ Đổi mới, hội nhập quốc tế từ năm 1986 đến nay.
+          </motion.p>
         </motion.div>
         <motion.div
           className="section-divider"
