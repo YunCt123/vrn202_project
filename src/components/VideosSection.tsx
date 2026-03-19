@@ -50,7 +50,6 @@ const modalContentVariants = {
     scale: 1,
     y: 0,
     transition: {
-      type: "spring",
       duration: 0.5
     }
   },

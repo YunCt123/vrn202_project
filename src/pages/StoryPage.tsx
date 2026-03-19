@@ -1,8 +1,6 @@
 import { useState } from 'react'
-import { HorizontalScrollContainer } from '../components/HorizontalScrollContainer'
 import { StorySection } from '../components/StorySection'
 import { TimelineLine } from '../components/TimelineLine'
-import { AudioController } from '../components/AudioController'
 import { MapRegion } from '../components/MapRegion'
 import { StoryModal } from '../components/StoryModal'
 import { useCursor } from '../systems/cursor/CursorProvider'
@@ -172,8 +170,8 @@ const mapRegions: MapRegionData[] = [
 ]
 
 const StoryPage = () => {
-  const [progress, setProgress] = useState(0)
-  const [activeIndex, setActiveIndex] = useState(0)
+  const [progress, _setProgress] = useState(0)
+  const [activeIndex, _setActiveIndex] = useState(0)
   const [activeRegion, setActiveRegion] = useState<MapRegionData | null>(null)
   const { setMode } = useCursor()
 
@@ -189,11 +187,6 @@ const StoryPage = () => {
       <div className="progress-rail">
         <span className="progress-rail__fill" style={{ width: `${progress * 100}%` }} />
       </div>
-      <HorizontalScrollContainer
-        sections={sections.length}
-        onProgress={setProgress}
-        onActiveIndex={setActiveIndex}
-      >
         {sections.map((section, index) => (
           <StorySection
             key={section.id}
@@ -225,8 +218,6 @@ const StoryPage = () => {
             ) : null}
           </StorySection>
         ))}
-      </HorizontalScrollContainer>
-      <AudioController />
       <StoryModal
         isOpen={!!activeRegion}
         title={activeRegion?.label ?? ''}
