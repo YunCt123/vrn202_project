@@ -8,15 +8,15 @@ type TimelineLineProps = {
 
 export const TimelineLine = ({ labels, progress, activeIndex }: TimelineLineProps) => {
   return (
-    <div className="timeline">
-      <div className="timeline-bar">
-        <span className="timeline-bar__base" />
+    <div className="story-timeline">
+      <div className="story-timeline__bar">
+        <span className="story-timeline__base" />
         <span
-          className="timeline-bar__fill"
+          className="story-timeline__fill"
           style={{ width: `${Math.round(progress * 100)}%` }}
         />
       </div>
-      <div className="timeline-nodes">
+      <div className="story-timeline__nodes">
         {labels.map((label, index) => (
           <TimelineNode
             key={label}

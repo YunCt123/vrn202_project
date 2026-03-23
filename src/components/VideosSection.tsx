@@ -68,9 +68,7 @@ export function VideosSection() {
 
   const videos: Video[] = [
     { id: 'GifvfJowlVQ', title: 'Lịch sử Đảng Việt Nam' },
-    { id: '7FtGvLISpIk', title: 'Hội nghị thành lập Đảng diễn ra như thế nào?' },
-    { id: '6lL5TfVt80M', title: 'Thành lập Đảng - Bước ngoặt lịch sử vĩ đại' },
-    { id: 'F8o1wuXi6Eo', title: 'Lịch sử và ý nghĩa sự ra đời của Đảng' }
+    { id: '66tLc02zoNs', title: 'Những nhân vật có tầm ảnh hưởng trong cuộc đời của Bác Hồ' },
   ]
 
   const openModal = (videoId: string) => {

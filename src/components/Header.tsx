@@ -62,6 +62,14 @@ export function Header() {
             </li>
             <li>
               <Link
+                to="/map"
+                className={isActive('/map') ? 'active' : ''}
+              >
+                Story Map
+              </Link>
+            </li>
+            <li>
+              <Link
                 to="/leaders"
                 className={isActive('/leaders') ? 'active' : ''}
               >
@@ -116,6 +124,11 @@ export function Header() {
           <li>
             <Link to="/timeline" onClick={closeMobileMenu}>
               Dòng thời gian
+            </Link>
+          </li>
+          <li>
+            <Link to="/story" onClick={closeMobileMenu}>
+              Story Map
             </Link>
           </li>
           <li>
