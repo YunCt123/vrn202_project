@@ -1,6 +1,6 @@
 .story-shell {
   position: relative;
-  padding: 112px 24px 64px;
+  padding: 12px 24px 64px;
   background:
     radial-gradient(circle at 15% 10%, rgba(250, 204, 21, 0.2), transparent 40%),
     radial-gradient(circle at 85% 80%, rgba(185, 28, 28, 0.25), transparent 45%),
@@ -281,22 +281,22 @@
 }
 
 .map-region--dienbien {
-  left: 27%;
-  top: 22%;
+  left: 23%;
+  top: 23%;
 }
 
 .map-region--hanoi {
-  left: 45%;
-  top: 27%;
+  left: 39%;
+  top: 25.5%;
 }
 
 .map-region--haiphong {
-  left: 54%;
-  top: 29%;
+  left: 44%;
+  top: 27%;
 }
 
 .map-region--hue {
-  left: 52%;
+  left: 49%;
   top: 46%;
 }
 
@@ -306,18 +306,18 @@
 }
 
 .map-region--dalat {
-  left: 54%;
-  top: 70%;
+  left: 55%;
+  top: 65%;
 }
 
 .map-region--cantho {
   left: 45%;
-  top: 90%;
+  top: 74%;
 }
 
 .map-region--saigon {
   left: 51%;
-  top: 84%;
+  top: 69%;
 }
 
 .map-glow {
