@@ -2,7 +2,7 @@ import { useState } from 'react'
 import { MapRegion } from '../components/MapRegion'
 import { StoryModal } from '../components/StoryModal'
 import { useCursor } from '../systems/cursor/CursorProvider'
-import mapImage from '../assets/vietnam.png'
+import mapImage from '../assets/vietnam-removebg-preview.png'
 import './StoryPage.css'
 
 type MapRegionData = {
